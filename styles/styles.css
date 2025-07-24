@@ -163,7 +163,6 @@ body {
   transform: translate(-100%, -50%);
 }
 .flower-store {
-  position: relative;
 }
 .plants-lover {
   gap: 60px;
@@ -215,31 +214,25 @@ body {
   }
 
   .flower-plant-lover {
-    margin: 30px 16px;
+    margin: 30px auto;
     justify-content: center;
     justify-items: center;
   }
 
   .flower-store {
-    z-index: 1;
+    max-width: 380px;
+    padding-left: 32px;
   }
-  .badge {
-    margin: 0 auto;
-    display: none;
-  }
+
   .plants-lover {
     flex-direction: column;
     justify-content: center;
     justify-items: center;
   }
-
+  .badge {
+    display: none;
+  }
   .plant-lover-right {
-    margin: 0 16px;
-  }
-  .plant-lover-right ul li {
-    margin: 0 auto;
-  }
-  .plant-lover-right ul {
-    padding: 0;
+    margin: 0 35px;
   }
 }
