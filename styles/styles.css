@@ -218,13 +218,28 @@ body {
     margin: 30px 16px;
     justify-content: center;
     justify-items: center;
-    width: 100%;
   }
 
   .flower-store {
     z-index: 1;
   }
+  .badge {
+    margin: 0 auto;
+    display: none;
+  }
   .plants-lover {
     flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .plant-lover-right {
+    margin: 0 16px;
+  }
+  .plant-lover-right ul li {
+    margin: 0 auto;
+  }
+  .plant-lover-right ul {
+    padding: 0;
   }
 }
