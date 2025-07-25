@@ -89,6 +89,9 @@ body {
   flex: 1;
   width: 100%;
 }
+.banner-right img {
+  width: 100%;
+}
 
 .banner-title {
   font-family: "Noto Serif", serif;
@@ -351,7 +354,7 @@ body {
     display: none;
   }
   .navbar {
-    margin: 20px 16px;
+    margin: 20px auto;
     justify-content: space-around;
     justify-content: center;
     justify-items: center;
@@ -361,11 +364,14 @@ body {
   }
   .banner {
     flex-direction: column-reverse;
-    margin: 25px 16px;
+    margin: 25px 0;
   }
   .banner-left {
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin: 20px 16px 40px;
+  }
+  .banner-right {
+    width: 100%;
+    margin: 0;
   }
 
   .banner-description {
