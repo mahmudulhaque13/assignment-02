@@ -112,6 +112,9 @@ body {
   text-align: center;
   margin: 0 150px;
 }
+.plant-description {
+  padding-top: 20px;
+}
 
 .plant-cards {
   display: grid;
