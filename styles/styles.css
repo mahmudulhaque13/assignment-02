@@ -87,10 +87,9 @@ body {
 }
 .banner-right {
   flex: 1;
-}
-.banner-right img {
   width: 100%;
 }
+
 .banner-title {
   font-family: "Noto Serif", serif;
   font-weight: 700;
@@ -355,6 +354,13 @@ body {
     flex-direction: column-reverse;
     margin: 25px 16px;
   }
+  .banner-left {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .banner-description {
+    padding-top: 10px;
+  }
   .our-plants {
     margin: 20px 10px;
   }
@@ -450,8 +456,26 @@ body {
     flex-direction: column;
     justify-content: center;
   }
+  .footer-text {
+    font-size: 1rem;
+    padding-top: 20px;
+  }
+  .footer-1 {
+    margin-bottom: 20px;
+  }
   .footer-4 > img {
     padding-right: 24px;
     padding-left: 0;
+  }
+  .footer-a {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .responsive-title {
+    font-size: 1.5rem;
+  }
+  .responsive-sub {
+    font-size: 0.9rem;
+    padding-top: 10px;
   }
 }
