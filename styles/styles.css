@@ -70,6 +70,7 @@ body {
 }
 #home {
   color: #252432;
+  font-weight: 700;
 }
 #cart {
   color: black;
@@ -80,7 +81,7 @@ body {
   max-width: 1140px;
   margin: 120px 150px;
   justify-content: space-between;
-  align-items: center;
+  align-items: last baseline;
 }
 .banner-left {
   flex: 1;
@@ -155,6 +156,12 @@ body {
 .plants-lover-left {
 }
 
+/* @keyframes badge-rotate {
+    from{ transform: rotate(0deg);} to {
+      transform: rotate(360deg);
+    }
+    } */
+
 .badge {
   width: 286px;
   height: 286px;
@@ -163,7 +170,9 @@ body {
   bottom: 50%;
   right: 20%;
   transform: translate(-100%, -50%);
+  /* animation: badge-rotate 3s infinite; */
 }
+
 .flower-store {
 }
 .plants-lover {
@@ -365,6 +374,7 @@ body {
   .banner {
     flex-direction: column-reverse;
     margin: 25px 0;
+    margin-left: 16px;
   }
   .banner-left {
     margin: 20px 16px 40px;
@@ -392,6 +402,12 @@ body {
   }
   .add-cart {
     width: 100%;
+  }
+  .flower-name {
+    font-size: 1rem;
+  }
+  .price {
+    font-size: 1rem;
   }
 
   .flower-plant-lover {
